@@ -1,0 +1,31 @@
+.app {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: #f8f9fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background: #2d3436;
+  padding: 0.75rem 1.5rem;
+}
+
+.nav a {
+  color: #fff;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #74b9ff;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

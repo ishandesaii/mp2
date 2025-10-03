@@ -1,0 +1,25 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.filterItem {
+  background: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid #dfe6e9;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filterItem input {
+  margin-right: 0.4rem;
+}
+
+.filterItem:hover {
+  background: #74b9ff;
+  color: #fff;
+  border-color: #74b9ff;
+}
